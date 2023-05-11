@@ -1,0 +1,14 @@
+<div class="text-center">
+    <h1>Current Counter: {{count$ | async}}</h1>
+    <div class="col">
+        <button 
+            class="btn btn-primary"
+            (click)="onDecrement()">Decrement</button>&nbsp;&nbsp;
+        <button 
+            class="btn btn-success"
+            (click)="onIncrement()">Increment</button>&nbsp;&nbsp;
+        <button 
+            class="btn btn-danger"
+            (click)="onReset()">Reset</button>
+    </div>
+</div>
